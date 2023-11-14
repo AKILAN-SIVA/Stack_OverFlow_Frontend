@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API = axios.create({ baseURL: 'https://stackoverflow-jatk.onrender.com/' })
+const API = axios.create({ baseURL: 'https://stackoverflow-r1wz.onrender.com/' })
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem("Profile")) {
