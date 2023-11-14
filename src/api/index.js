@@ -33,9 +33,3 @@ export const deleteAnswer = (id, answerId, noOfAnswers) =>
 export const fetchAllUsers = () => API.get("/user/getAllUser");
 
 export const updateProfile = (id, updateData) => API.patch(`/user/update/${id}`, updateData);
-
-export const postLoginDetails = (id, ipAddress, devices) =>
-    API.patch(`/user/${id}`, {
-        ipAddress,
-        devices,
-    });

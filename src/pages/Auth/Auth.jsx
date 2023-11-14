@@ -14,9 +14,6 @@ const Auth = () => {
     const [email, setEmail] = useState("");
     const [password, SetPassword] = useState("");
 
-    const [ipAddress, setIpAddress] = useState("10.10.10.10");
-    const [devices, setDevices] = useState("Mobile");
-
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
@@ -38,7 +35,7 @@ const Auth = () => {
             dispatch(signup({ name, email, password }, navigate));
         }
         else {
-            dispatch(login({ email, password, ipAddress, devices }, navigate));
+            dispatch(login({ email, password }, navigate));
         }
     };
 
