@@ -3,7 +3,7 @@
 Steps to use this repository.
 1. Clone the repository
 ```
-git clone https://github.com/AKILAN-SIVA/Stack_OverFlow.git
+git clone https://github.com/AKILAN-SIVA/Stack_OverFlow_Frontend.git
 ```
 2. Enter into the directory
 ```
